@@ -27,4 +27,10 @@ public:
 		cout << "\nMasukan nama MK= ";
 		cin >> namaMK;
 }
+
+	void tampilMK() {
+		cout << "\nJumlah SKS= " << sks;
+		cout << "\Kode MK= " << kode;
+		cout << "\nNama MK= " << namaMK << endl;
+	}
 };
