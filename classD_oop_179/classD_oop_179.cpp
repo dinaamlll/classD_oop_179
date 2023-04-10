@@ -44,4 +44,11 @@ int main() {
 	cout << "\nMasukan Nama= ";
 	cin >> mhs.nama;
 
-}
+	mk.inputMK();
+	mhs.tampil();
+	cout << endl;
+	mk.tampilMK();
+
+	system("pause");
+
+};
